@@ -1,0 +1,21 @@
+# Use this to define local configurations for your project.
+# Any configuration defined here will override its global counterpart.
+# Global configurations are located in `C:\Users\Nicholas\AppData\Roaming\YGOFabrica\config.toml`.
+
+[expansion.Testing]
+default = true
+recipe = ["Testing-vals.toml","Testing-en.toml"]
+
+[gamedir.main]
+default = true
+path = '''C:\ProjectIgnis'''
+
+[picset.regular]
+default = true
+mode = 'proxy'
+size = '512x'
+ext = 'png'
+field = true
+author = 'Nbashpro'
+year = 2023
+

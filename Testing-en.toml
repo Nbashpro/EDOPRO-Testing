@@ -1,0 +1,17 @@
+[macro]
+MULTI-HOPT = '''You can only use 1 "$1" effect per turn, and only once that turn'''
+SINGLE-HOPT = '''You can only use this effect of "$1" once per turn'''
+COMMON = '''If you control another "Testing" monster, $1'''
+SETN = "${_SETN|EN|$1}"
+
+[counter.production]
+name = "Production Counter"
+
+[set.Testing]
+name = "Testing"
+
+[card.test]
+name = "tester"
+setnumber = "${SETN|001}"
+effect = '''
+${COMMON|this card gains 1600 ATK}.'''
