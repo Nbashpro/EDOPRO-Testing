@@ -4,9 +4,6 @@ _SETN = "FABK-$1$2"
 [counter.production]
 code = 0x12f
 
-[set.guardian]
-code = 0x52
-
 [set.Testing]
 name = "Testing"
 code = 0xf00
@@ -18,7 +15,7 @@ ot = "custom"
 set = "Testing"
 attribute = "water"
 race = "spellcaster"
-type = "monster effect normal"
+type = "monster normal"
 atk = 5000
 def = 420
 level = 12

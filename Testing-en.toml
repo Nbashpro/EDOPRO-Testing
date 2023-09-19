@@ -13,5 +13,4 @@ name = "Testing"
 [card.test]
 name = "tester"
 setnumber = "${SETN|001}"
-effect = '''
-${COMMON|this card gains 1600 ATK}.'''
+flavor-text = "Testing Your Demise Since 1969!"
