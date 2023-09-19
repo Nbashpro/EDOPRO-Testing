@@ -5,9 +5,9 @@
 [expansion.Testing]
 default = true
 recipe = ["Testing-vals.toml","Testing-en.toml"]
+locale = 'en'
 
 [gamedir.main]
-default = true
 path = '''C:\ProjectIgnis'''
 
 [picset.regular]
