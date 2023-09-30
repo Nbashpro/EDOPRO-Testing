@@ -11,6 +11,6 @@ name = "Production Counter"
 name = "Testing"
 
 [card.test]
-name = "tester"
+name = "Tester"
 setnumber = "${SETN|001}"
 flavor-text = "Testing Your Demise Since 1969!"

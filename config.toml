@@ -11,12 +11,11 @@ locale = 'en'
 path = '''C:\ProjectIgnis'''
 
 [picset.regular]
-default = true
 mode = 'proxy'
 size = '512x'
 artstyle = 'cover'
 ext = 'png'
-field = true
+year = '2023'
 author = 'Nbashpro'
-year = 2023
+field = true
 

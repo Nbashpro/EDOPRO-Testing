@@ -11,11 +11,11 @@ code = 0xf00
 [card.test]
 id = 102345678
 setnumber = "s{SETN|001}"
-ot = "CUSTOM"
-set = "Testing"
 attribute = "water"
 race = "spellcaster"
 type = "monster normal"
 atk = 5000
 def = 420
 level = 12
+set = "Testing"
+ot = "CUSTOM"
