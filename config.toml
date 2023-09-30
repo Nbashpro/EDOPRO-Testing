@@ -14,6 +14,7 @@ path = '''C:\ProjectIgnis'''
 default = true
 mode = 'proxy'
 size = '512x'
+artstyle = 'cover'
 ext = 'png'
 field = true
 author = 'Nbashpro'

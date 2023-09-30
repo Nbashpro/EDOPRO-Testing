@@ -1,5 +1,5 @@
 [macro]
-_SETN = "FABK-$1$2"
+_SETN = "XD01-$1$2"
 
 [counter.production]
 code = 0x12f
@@ -10,8 +10,8 @@ code = 0xf00
 
 [card.test]
 id = 102345678
-setnumber = "${SETN|001}"
-ot = "custom"
+setnumber = "s{SETN|001}"
+ot = "CUSTOM"
 set = "Testing"
 attribute = "water"
 race = "spellcaster"
